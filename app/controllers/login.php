@@ -1,6 +1,6 @@
 <?php 	
 
-$title = 'Страница авторизации';
+$title_page = 'Страница авторизации';
 
 
 if(!empty($_GET['email']) && !empty($_GET['password'])){
