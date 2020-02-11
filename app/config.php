@@ -1,10 +1,10 @@
 <?php 
 
 //путь к основной папке нашего приложения 
-define("APP_DIRECTORY", "/var/www/api.muzalem.com/php-course/firstapp/");
+define("APP_DIRECTORY", "/");
 
 //путь к основной папке нашего приложения 
-define("APP_BASE_URL", "http://api.muzalem.com/php-course/firstapp/");
+define("APP_BASE_URL", "https://vnvnn.ru/php-course/firstapp/");
 
 
 //нужные данные от базы данных
