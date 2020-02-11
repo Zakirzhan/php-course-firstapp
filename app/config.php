@@ -3,7 +3,7 @@
 //путь к основной папке нашего приложения 
 define("APP_DIRECTORY", "/");
 
-//путь к основной папке нашего приложения 
+//внешний урл к нашему приложения 
 define("APP_BASE_URL", "https://vnvnn.ru/php-course/firstapp/");
 
 
