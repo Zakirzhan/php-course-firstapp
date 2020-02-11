@@ -1,13 +1,19 @@
 <?php 
 
 //добавляем конфиг
-require_once(APP_DIRECTORY.'app/config.php');
+require_once('config.php');
 
 //добавляем класс базы данных
-require_once(APP_DIRECTORY.'app/models/database.php');
-$mydb = new MyDB($db);
+require_once(APP_DIRECTORY.'app/models/MyDB.class.php');
+$mydb = new MyDB($db);	
 
-//подключаем функцию для регистрации
-require_once(APP_DIRECTORY.'app/models/register.php');
+//добавляем routes
+require_once(APP_DIRECTORY.'app/models/Routes.class.php');
+
+//добавляем класс сессии
+require_once(APP_DIRECTORY.'app/models/Session.class.php');
+Session::start();
+
+
 
  ?>
