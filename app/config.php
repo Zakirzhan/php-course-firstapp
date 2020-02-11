@@ -9,9 +9,9 @@ define("APP_BASE_URL", "http://api.muzalem.com/php-course/firstapp/");
 
 //нужные данные от базы данных
 $db['login'] = 'root';
-$db['password'] = 'zako1996';
+$db['password'] = '';
 $db['host'] = 'localhost';
-$db['name']= 'firstapp';
+$db['name']= '';
 
 
 
